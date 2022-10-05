@@ -1,0 +1,36 @@
+QLineEdit {
+    background-color: #ffb04b;
+    font-size: 48px;
+    border-width: 7px;
+    border-color: white;
+    border-radius: 12px;
+    border-style: outset;
+
+}
+QLabel {
+    font-size: 36px;
+    color: white;
+}
+
+QLabel#ONLabelLogo {
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+QWidget#ONDisplay, QDialog#ONDisplay {
+    background-color: #5e95c8;
+    border-width: 0px;
+    margin: 36px;
+}
+
+QLineEdit#ONEditVolume, QLineEdit#ONEditAmount {
+    margin: 36px;
+}
+
+QLineEdit#ONEditPrice {
+    margin-left: 36px;
+    margin-right: 36px;
+    margin-top: 36px;
+    margin-bottom: 0px;
+}
+
